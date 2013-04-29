@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VanitySeekbar -->
+    <declare-styleable name="SeekBarWithText">
+        <attr name="StatusTvStyle" format="reference"></attr>
+    </declare-styleable>
+
+</resources>

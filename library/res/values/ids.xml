@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="vv_custom_include" type="id"/>
+    <item name="vv_seekbar" type="id"/>
+    <item name="vv_textView1" type="id"/>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SeekBar
+        android:id="@id/vv_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="0" />
+
+    <TextView
+        android:id="@id/vv_textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|bottom"
+        android:text="0" />
+
+</merge>
