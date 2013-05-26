@@ -1,9 +1,9 @@
 /**
  * 
  */
-package in.jasonleon.vanitiviews.widget;
+package in.jasonleon.vanityviews.widget;
 
-import in.jasonleon.vanitiviews.R;
+import in.jasonleon.vanityviews.R;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -53,7 +53,7 @@ public class SeekBarWithText extends LinearLayout {
 
     if (findViewById(R.id.vv_custom_include) == null) {
       LayoutInflater inflater = LayoutInflater.from(getContext());
-      inflater.inflate(R.layout.vv__seekbarandcount, this);
+      inflater.inflate(R.layout.vv__seekbarwithtext, this);
     }
     super.onFinishInflate();
 
@@ -99,6 +99,13 @@ public class SeekBarWithText extends LinearLayout {
    */
   public SeekBar getSeekBar() {
     return mSeekBar;
+  }
+
+  /**
+   * @return the mSeekBarTv
+   */
+  public TextView getSeekBarTv() {
+    return mSeekBarTv;
   }
 
   /**

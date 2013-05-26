@@ -2,8 +2,6 @@
 <resources>
 
     <!-- VanitySeekbar -->
-    <declare-styleable name="SeekBarWithText">
-        <attr name="StatusTvStyle" format="reference"></attr>
-    </declare-styleable>
+    <declare-styleable name="SeekBarWithText"></declare-styleable>
 
 </resources>

@@ -4,17 +4,17 @@
     android:layout_height="wrap_content"
     android:orientation="vertical" >
 
-    <in.jasonleon.vanitiviews.widget.SeekBarWithText
+    <in.jasonleon.vanityviews.widget.SeekBarWithText
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <in.jasonleon.vanitiviews.widget.SeekBarWithText
+    <in.jasonleon.vanityviews.widget.SeekBarWithText
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
         <include
             android:id="@id/vv_custom_include"
             layout="@layout/custom_seekbar" />
-    </in.jasonleon.vanitiviews.widget.SeekBarWithText>
+    </in.jasonleon.vanityviews.widget.SeekBarWithText>
 
 </LinearLayout>
